@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shopper/widget/header.dart';
 
@@ -10,12 +9,11 @@ class CommonLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.fromLTRB(10, 50, 10, 0),
+        padding: const EdgeInsets.fromLTRB(10, 80, 10, 0),
         child: SizedBox(
           width: MediaQuery.of(context).size.width,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Header(),
               const SizedBox(height: 20,),
